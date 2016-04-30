@@ -1,0 +1,55 @@
+h2 {
+    text-align: center;
+}
+
+.main {
+    width: 400px;
+    margin: auto;
+}
+
+table {
+    line-height: 40px;
+    width: 400px;
+}
+
+th {
+    background-color: #3facc4;
+    color: #fff;
+}
+
+th,
+td {
+    padding-left: 14px;
+    text-align: left;
+}
+
+.center {
+    padding-left: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.center:hover {
+    background-color: #fff;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    background: url(../img/check_radio_sheet.png) left top no-repeat;
+}
+
+input[type="checkbox"]:checked + label span {
+    background: url(../img/check_radio_sheet.png) -19px top no-repeat;
+}
