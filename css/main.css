@@ -10,6 +10,8 @@ h2 {
 table {
     line-height: 40px;
     width: 400px;
+    border: none;
+    border-collapse: collapse;
 }
 
 th {
@@ -23,25 +25,25 @@ td {
     text-align: left;
 }
 
+td {
+    border-bottom: solid 1px #D3D3D3;
+}
+
 .center {
     padding-left: 5px;
     text-align: center;
-    background-color: #f2f2f2;
 }
 
-.center:hover {
-    background-color: #fff;
-}
-
-tr {
-    background-color: #f2f2f2;
+tr:hover {
+    background-color: #f2f2f2
+;
 }
 
 input[type="checkbox"] {
     display: none;
 }
 
-input[type="checkbox"] + label span {
+input[type="checkbox"] + .check-icon {
     display: inline-block;
     width: 19px;
     height: 19px;
@@ -50,6 +52,6 @@ input[type="checkbox"] + label span {
     background: url(../img/check_radio_sheet.png) left top no-repeat;
 }
 
-input[type="checkbox"]:checked + label span {
+input[type="checkbox"]:checked + .check-icon {
     background: url(../img/check_radio_sheet.png) -19px top no-repeat;
 }
