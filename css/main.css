@@ -3,13 +3,13 @@ h2 {
 }
 
 .main {
-    width: 400px;
+    max-width: 1000px;
     margin: auto;
 }
 
 table {
     line-height: 40px;
-    max-width: 400px;
+    width: 100%;
     border: none;
     border-collapse: collapse;
 }
