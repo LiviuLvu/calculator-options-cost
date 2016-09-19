@@ -9,7 +9,7 @@ h2 {
 
 table {
     line-height: 40px;
-    width: 400px;
+    max-width: 400px;
     border: none;
     border-collapse: collapse;
 }
